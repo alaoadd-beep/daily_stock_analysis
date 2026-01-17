@@ -162,7 +162,7 @@ class Config:
         
         # 如果没有配置，使用默认的示例股票
         if not stock_list:
-            stock_list = ['600519', '000001', '300750']
+            stock_list = ['601229', '600410', '301091', '000333', '002179', '000034']
         
         # 解析搜索引擎 API Keys（支持多个 key，逗号分隔）
         bocha_keys_str = os.getenv('BOCHA_API_KEYS', '')
